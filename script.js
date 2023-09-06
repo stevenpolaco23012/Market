@@ -24,7 +24,6 @@ cargarEventListeners();
 
 function cargarEventListeners(){
     elementos1.addEventListener('click', comprarElemento);
-    carrito.addEventListener('click', eliminarElemento);
     vaciarCarritoBtn.addEventListener('click', vaciarCarrito);
 }
 
